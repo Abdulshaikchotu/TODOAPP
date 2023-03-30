@@ -1,0 +1,17 @@
+#home{
+    display: flex;
+    flex-direction: column;
+
+}
+#nav-parent{
+    background-color: black;
+    color: white;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,24 @@
+#postitems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    box-shadow: 3px 4px 20px black;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#postitems input{
+    width: 300px;
+    height: 30px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: yellowgreen;
+}
