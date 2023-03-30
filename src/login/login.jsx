@@ -22,9 +22,6 @@ let Login=()=>{
                 window.localStorage.setItem("token",token)
                 navigate("/home")
             }
-            else{
-                alert("user is not persent please register ")
-            }
         }else{
             alert("both fileds required")
         }

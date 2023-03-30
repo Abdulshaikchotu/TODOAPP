@@ -23,8 +23,6 @@ let Home = () => {
   let handlelogout=()=>{
     window.localStorage.clear("token")
      navigate("/login")
-    window.location.reload(false)
-   
   } 
 
   //posttodo
