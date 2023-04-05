@@ -34,7 +34,7 @@ let Login=()=>{
                    <h1>Login</h1>
                   <input type="email" placeholder="email" id="email"/>
                   <input type="text" placeholder="password" id="password"/>
-                  <button style={{marginLeft:"100px"}} onClick={Login_user} id="btn-reg">Register</button>
+                  <button style={{marginLeft:"100px"}} onClick={Login_user} id="btn-reg">Login</button>
                 </div>
             </form>
           </div>
