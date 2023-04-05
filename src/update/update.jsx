@@ -14,6 +14,8 @@ let UpdatePage = () => {
   let navigate = useNavigate()
 
   let handleUpdate = () => {
+    console.log(id);
+    console.log("updating stage");
     let url = `https://todoapp-backend-yoii.onrender.com/aftersuccessfullogin/updatedata/${id}`
     let data = {
       toDoItem: toDoItem,
